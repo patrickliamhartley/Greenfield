@@ -215,4 +215,4 @@ var findPlayer = function (id) {
   return false;
 };
 
-http.listen(3000, '127.0.0.1');
+http.listen(3000, '107.170.245.62');
