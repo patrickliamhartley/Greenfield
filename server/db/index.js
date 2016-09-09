@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var mongoUri = 'mongodb://heroku_p5trc288:hjv2q2f5kvp5drpdc3p7ccu9hi@ds029106.mlab.com:29106/heroku_p5trc288';
+var mongoUri = 'mongodb://patrickliamhartley:muFFin1.@ds021016.mlab.com:21016/greenfield';
 
 // Connect Mongoose to our local MongoDB via URI specified above and export it below
 var db = mongoose.connect(mongoUri);
