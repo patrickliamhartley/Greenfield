@@ -141,7 +141,7 @@ App.info = { // this is the source of truth of info for each stage
   health: 100,
   gold: 0,
   players: [],
-  socket: io.connect('http://localhost:3000'), // sets this player's socket
+  socket: io.connect('http://107.170.245.62:3000'), // sets this player's socket
   
   //these event handlers trigger functions no matter what stage you are on
   socketHandlers: function () {

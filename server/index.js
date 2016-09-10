@@ -215,4 +215,4 @@ var findPlayer = function (id) {
   return false;
 };
 
-http.listen(3000, '107.170.245.62');
+http.listen(process.env.PORT || 3000, '107.170.245.62');
